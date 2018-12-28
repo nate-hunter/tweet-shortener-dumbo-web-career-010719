@@ -38,8 +38,8 @@ def word_substituter (tweet_string)
           # if "included" in the dictionary, a word, as a variable, is set to the dictionary value that corresponds to dictionary's key. what if the word isn't in the dictionary, what happens next? elsif? else?
     else 
       a_word 
-          # so using else - we just return a word. 
+          # so using else - we just return a word, and nothing happens to the altered tweet string. 
     end
-  end.join(" ")
+  end.join(" ") # I still don't quite understand the -- end.join(" ") -- is this saying to "join" whatever is ended?
 end
 
