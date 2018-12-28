@@ -43,3 +43,5 @@ def word_substituter (tweet_string)
   end.join(" ") # I still don't quite understand the -- end.join(" ") -- is this saying to "join" whatever is ended?
 end
 
+
+
