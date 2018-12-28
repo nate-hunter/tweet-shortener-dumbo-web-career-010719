@@ -16,7 +16,18 @@ dictionary = {
 
 # replaces long words with their expected short form
 def word_substituter (tweet_string)
-
+ dictionary = {
+  "hello" => 'hi',
+  "to" => '2', 
+  "two" => '2', 
+  "too"  => '2', 
+  "for" => '4', 
+  "four" => '4',
+  'be' => 'b',
+  'you' => 'u',
+  "at" => "@", 
+  "and" => "&"
+  } 
   tweet_string.split.map do | a_word |
           # for a word in the tweet string, compare it to the keys in the dictionary. If a tweet word is equal to a word in the dictionary,  replace it with the corresponding dictionary value.  
     
