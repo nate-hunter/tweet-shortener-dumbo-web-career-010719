@@ -25,10 +25,12 @@ def word_substituter (tweet_string)
           # Next I want to substitute the dictionary values for words in the tweet. How?
       a_word = dictionary[a_word.downcase] 
           # if "included" in the dictionary, a word, as a variable, is set to the dictionary value that corresponds to dictionary's key. what if the word isn't in the dictionary, what happens next? elsif? else?
-      else 
-        a_word 
+    else 
+      a_word 
           # so using else - we just return a word. 
-          
+    end
+    
+    
           
           
       
