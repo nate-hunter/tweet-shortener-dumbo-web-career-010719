@@ -24,7 +24,9 @@ def word_substituter (tweet_string)
           # why .downcase needed? Cause if 'For' and 'for' compared it would be false?
           # Next I want to substitute the dictionary values for words in the tweet. How?
       a_word = dictionary[a_word.downcase] 
-          # the word as a variable is set to the dictionary value that corresponds to dictionary's key 
+          # if "included" in the dictionary, the word, as a variable, is set to the dictionary value that corresponds to dictionary's key. what if the word isn't in the dictionary, what happens next? elsif? else?
+          
+          
       
     
   end 
