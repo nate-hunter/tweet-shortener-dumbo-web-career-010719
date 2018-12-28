@@ -29,7 +29,8 @@ def word_substituter (tweet_string)
       a_word 
           # so using else - we just return a word. 
     end
-  end.join(", ")
+  end.join(" ")
+  
     
           
           
